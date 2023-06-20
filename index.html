@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form registrazione MusicFree</title>
+    <style>
+        body{
+            background-image:url("data:image/jpeg;base64,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");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: -20px;
+            text-align: center;
+        }
+    </style>
+<h1 style="color:blueviolet; font-size: 40px;">Benvenuto su FreeMusic, l'applicazione di music streaming totalmente gratuita</h1>
+</head>
+<body>
+ <h3> Compila il form con i dati richiesti per iniziare ad ascoltare tutta la musica che vuoi!</h3>   
+<form>
+    <fieldset style="text-align: center; border: 0px;">
+    <div>
+    <label for="Nome">Nome:</label><br>
+    <input type="text"placeholder="Il tuo nome"/> </div>
+    <label for="Cognome">Cognome:</label><br>
+<div><input type="text" placeholder="Il tuo cognome" /> </div>
+<label for="Email">Email:</label><br>
+<div><input type="mail" placeholder="La tua mail"/></div>
+<label for="Password">Password:</label><br>
+<div><input type="password"placeholder="Scegli una password"/></div>
+<label for="Data di nascita">Data di nascita:</label><br>
+<div><input type="date"placeholder="Inserisci la tua data di nascita"/></div>
+<label for="Numero di telefono">Telefono:</label><br>
+<div><input type="tel"placeholder="Il tuo numero di telefono"/></div>
+<h3>Indica le tue preferenze musicali</h3>
+<fieldset>
+    <legend>Quali sono i tuoi generi preferiti:</legend>
+
+      <input type="checkbox" id="Pop" name="Pop" checked>
+      <label for="Pop">Pop</label>
+    
+      <input type="checkbox" id="Rock" name="Rock">
+      <label for="Rock">Rock</label>
+
+    <input type="checkbox" id="Indie" name="Indie">
+    <label for="Indie">Indie</label>
+
+        <input type="checkbox" id="Metal" name="Metal">
+        <label for="Metal">Metal</label>
+
+        <input type="checkbox" id="Classica" name="Classica">
+        <label for="Classica">Classica</label>
+
+        <input type="checkbox" id="Techno" name="Techno">
+        <label for="Techno">Techno</label>
+    
+        <input type="checkbox" id="Rap" name="Rap">
+        <label for="Rap">Rap</label>
+      
+        <input type="checkbox" id="Trap" name="Trap">
+        <label for="Trap">Trap</label>
+      
+        <input type="checkbox" id="R&B" name="R&B">
+        <label for="R&B">R&B</label>
+      
+        <input type="checkbox" id="Blues" name="Blues">
+        <label for="Blues">Blues</label>
+    
+        <input type="checkbox" id="Jazz" name="Jazz">
+        <label for="Jazz">Jazz</label>
+      
+
+</fieldset>
+<div>
+<input type="radio">Ho letto ed accetto i termini e le condizioni d'uso del servizio MusicFree 
+</div>
+<div text align="center">
+<button type="submit" onclick="alert('Registrazione inviata')">Invia registrazione</button>
+</div>
+</form>
+</body>
+</html>
